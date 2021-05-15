@@ -1,1 +1,39 @@
 /* Add your own CSS code below */
+.heart-codi-color {
+  color: #c85308;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    height: 35em;
+  }
+  .hero__title {
+    font-size: 4rem;
+  }
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .views {
+    display: flex;
+    flex-direction: row;
+  }
+  .views > a {
+    margin-left: 2rem;
+  }
+}
+article {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  word-spacing: 0.2rem;
+}
